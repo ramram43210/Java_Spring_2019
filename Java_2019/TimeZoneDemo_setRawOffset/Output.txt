@@ -1,0 +1,2 @@
+Before Set, Offset value is = 19800000
+After Set, Offset value is  = 20000
