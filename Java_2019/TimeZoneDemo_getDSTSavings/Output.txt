@@ -1,0 +1,2 @@
+ID value is = Europe/Paris
+DST saving is = 3600000
