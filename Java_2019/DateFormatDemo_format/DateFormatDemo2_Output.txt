@@ -1,0 +1,4 @@
+DEFAULT format = Dec 27, 2018
+FULL format = Thursday, December 27, 2018
+LONG format = December 27, 2018
+SHORT format = 12/27/18
