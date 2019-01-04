@@ -1,0 +1,4 @@
+Wed Jan 02 09:29:18 IST 2019
+formatedDateStr Long   = 9:29:18 AM IST
+formatedDateStr MEDIUM = 9:29:18 AM
+formatedDateStr SHORT  = 9:29 AM

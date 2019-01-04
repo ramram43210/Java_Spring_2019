@@ -1,0 +1,3 @@
+Tue Jan 03 09:11:30 IST 1939
+sun.util.calendar.ZoneInfo[id="Asia/Calcutta",offset=19800000,dstSavings=0,useDaylight=false,transitions=6,lastRule=null]
+India Standard Time
