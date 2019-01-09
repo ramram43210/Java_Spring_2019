@@ -1,0 +1,2 @@
+date           = Wed Jan 09 12:25:40 IST 2019
+Formatted date = Jan
