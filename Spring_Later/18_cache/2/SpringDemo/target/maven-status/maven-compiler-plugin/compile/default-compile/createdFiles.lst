@@ -1,0 +1,5 @@
+com\websystique\spring\configuration\SampleApplication.class
+com\websystique\spring\service\ProductServiceImpl.class
+com\websystique\spring\configuration\AppConfig.class
+com\websystique\spring\model\Product.class
+com\websystique\spring\service\ProductService.class
