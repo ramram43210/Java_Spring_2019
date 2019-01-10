@@ -1,0 +1,18 @@
+<mapping>
+	<class name="com.ram.core.model.Customer">
+
+		<map-to xml="customer" />
+
+		<field name="name" type="string">
+			<bind-xml name="name" node="element" />
+		</field>
+
+		<field name="age" type="integer">
+			<bind-xml name="age" node="attribute" />
+		</field>
+
+		<field name="address" type="string">
+			<bind-xml name="address" node="element" />
+		</field>
+	</class>
+</mapping>
