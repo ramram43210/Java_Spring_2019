@@ -1,0 +1,3 @@
+date = Thu Jan 10 10:08:20 IST 2019
+Pattern =  M/d/yy h:mm a
+Formatted Date = 1/10/19 10:08 AM
