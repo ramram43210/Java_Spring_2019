@@ -4,8 +4,8 @@ import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
 import javax.jms.Destination;
 import javax.jms.JMSException;
-import javax.jms.MessageProducer;
-import javax.jms.Queue;
+import javax.jms.Message;
+import javax.jms.MessageConsumer;
 import javax.jms.Session;
 import javax.jms.TextMessage;
 
@@ -13,11 +13,10 @@ import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 /*
- * This class is used to send a text message to the queue.
+ * This class is used to receive the text message from the queue.
  */
-public class MessageSender
+public class MessageReceiver
 {
-
 	/*
 	 * URL of the JMS server. DEFAULT_BROKER_URL will just mean that
 	 * JMS server is on localhost
@@ -27,8 +26,7 @@ public class MessageSender
 	private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
 
 	/*
-	 * Queue Name.You can create any/many queue names as per your
-	 * requirement.
+	 * Name of the queue we will receive messages from
 	 */
 	private static String queueName = "MESSAGE_QUEUE";
 
@@ -45,35 +43,37 @@ public class MessageSender
 		connection.start();
 
 		/*
-		 * Creating a non transactional session to send/receive JMS
-		 * message.
+		 * Creating session for receiving messages
 		 */
 		Session session = connection.createSession(false,
 				Session.AUTO_ACKNOWLEDGE);
 
 		/*
-		 * The queue will be created automatically on the server.
+		 * Destination represents here our queue 'MESSAGE_QUEUE' on
+		 * the JMS server.
+		 * 
+		 * MessageConsumer is used for receiving messages from the
+		 * queue.
 		 */
 		Destination destination = session.createQueue(queueName);
 
 		/*
-		 * Destination represents here our queue 'MESSAGE_QUEUE' on
-		 * the JMS server.
-		 * 
-		 * MessageProducer is used for sending messages to the queue.
+		 * MessageConsumer is used for receiving (consuming) messages
 		 */
-		MessageProducer producer = session
-				.createProducer(destination);
-		TextMessage message = session
-				.createTextMessage("Hi Peter, How are you?");
+		MessageConsumer consumer = session
+				.createConsumer(destination);
 
 		/*
-		 * Here we are sending our message!
+		 * Here we receive the message.
 		 */
-		producer.send(message);
+		Message message = consumer.receive();
 
-		System.out.println("Message '" + message.getText()
-				+ ", Sent Successfully to the Queue");
+		if (message instanceof TextMessage)
+		{
+			TextMessage textMessage = (TextMessage) message;
+			System.out.println("Received message '"
+					+ textMessage.getText() + "'");
+		}
 		connection.close();
 	}
 }
