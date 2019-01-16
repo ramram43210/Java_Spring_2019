@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="XMLConverter" class="com.ram.core.XMLConverter">
+		<property name="marshaller" ref="jaxbMarshaller" />
+		<property name="unmarshaller" ref="jaxbMarshaller" />
+	</bean>
+	<bean id="jaxbMarshaller"
+		class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		<property name="packagesToScan" value="com.ram.core.model" />
+
+		<property name="marshallerProperties">
+			<map>
+				<entry key="jaxb.formatted.output">
+					<value type="boolean">true</value>
+				</entry>
+			</map>
+		</property>
+
+	</bean>
+
+</beans>

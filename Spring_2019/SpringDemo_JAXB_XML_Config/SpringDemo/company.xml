@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:CompanyInfo xmlns:ns2="com.ram.core" Id="201">
+    <CompanyName>Google</CompanyName>
+    <CEO_Name>Peter</CEO_Name>
+    <Number_Of_Employees>50000</Number_Of_Employees>
+</ns2:CompanyInfo>
