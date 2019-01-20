@@ -1,0 +1,4 @@
+XML Created Sucessfully
+Security framework of XStream not initialized, XStream is probably vulnerable.
+Company [id=201, companyName=Google, ceoName=Peter, numberOfEmployees=50000]
+Converted XML to Object!
