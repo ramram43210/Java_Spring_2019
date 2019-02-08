@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * This statement means that class "Bookstore.java" is the 
  * root-element of our example
  */
-@XmlRootElement(namespace = "de.vogella.xml.jaxb.model")
+@XmlRootElement(namespace = "ram.jaxb.model")
 public class Bookstore
 {
 

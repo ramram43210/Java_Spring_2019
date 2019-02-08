@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:bookstore xmlns:ns2="de.vogella.xml.jaxb.model">
+<ns2:bookstore xmlns:ns2="ram.jaxb.model">
     <bookList>
         <book>
             <author>Peter</author>
