@@ -2,7 +2,7 @@
 3.How spring mvc works
 4.REST standad - employee api
 5.STS
-
+6.Spring boot common application properties
 
 Ref
 
