@@ -1,0 +1,14 @@
+server:
+  port : 8080
+  
+---
+spring:
+   profiles: dev
+server:
+   port: 8282
+   
+---
+spring:
+   profiles: prod
+server:
+   port: 9090       
