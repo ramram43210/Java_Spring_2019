@@ -1,9 +1,29 @@
+Spring boot
+
 2.Embeded tomcat server
 3.How spring mvc works
 4.REST standad - employee api
 5.STS
+WAR depoy
 
 Ref
 
 https://docs.spring.io/spring-boot/docs/current/reference/html/index.html
+
+
+
+Spring:
+
+https://stackoverflow.com/questions/31294698/what-is-the-difference-between-before-after-and-afterexecution-in-spring-aop?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+Java brain - 01,03,06 [Index Cons DI],08,11,12,13[list merge],14[default-init],16,17,18,19,20,21,22
+
+
+38-47 - SpEL
+AOP,37-47
+56-74 - JDBC Template
+Bean life cycle
+CustomDateEditor, Spring PropertyPlaceholderConfigurer example - http://www.mkyong.com/tutorials/spring-tutorials/
+RequestHandledEvent in spring
+35[ Inject Prototype Into Singleton Bean in Spring]
+Need for dependency injection - http://javainsimpleway.com/need-for-dependency-injection/
 
