@@ -1,10 +1,9 @@
 Spring boot
 
-2.Embeded tomcat server
-3.How spring mvc works
-4.REST standad - employee api
-5.STS
-WAR depoy
+1.Embeded tomcat server
+2.How spring mvc works
+3.REST standad - employee api
+4.WAR depoy
 
 Ref
 
