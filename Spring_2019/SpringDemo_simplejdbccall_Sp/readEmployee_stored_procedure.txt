@@ -1,0 +1,17 @@
+DELIMITER $$
+
+USE `org_db`$$
+
+DROP PROCEDURE IF EXISTS `read_employee`$$
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `read_employee`(IN in_employeeId INT,
+	    OUT out_name VARCHAR(100),
+	    OUT out_age INT,
+	    OUT out_salary INT)
+BEGIN
+        SELECT NAME, AGE, SALARY
+	INTO out_name, out_age, out_salary
+	FROM Employee WHERE EMPLOYEE_ID = in_employeeId;
+    END$$
+
+DELIMITER ;
