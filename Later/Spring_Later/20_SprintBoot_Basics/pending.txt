@@ -4,6 +4,7 @@ Spring boot
 2.How spring mvc works
 3.REST standad - employee api
 4.WAR depoy
+5.web app - telesco
 
 Ref
 
