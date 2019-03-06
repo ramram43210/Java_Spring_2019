@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.ram.config.RabbitMQConfiguration;
 
-
 @SpringBootApplication
 public class Application implements CommandLineRunner
 {

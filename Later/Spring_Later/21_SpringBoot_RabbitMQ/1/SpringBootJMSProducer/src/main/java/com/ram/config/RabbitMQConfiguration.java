@@ -39,7 +39,7 @@ public class RabbitMQConfiguration
 	public ConnectionFactory connectionFactory()
 	{
 		CachingConnectionFactory connectionFactory = new CachingConnectionFactory(
-				"192.168.140.202");
+				"localhost");
 		connectionFactory.setPort(5672);
 		connectionFactory.setUsername("guest");
 		connectionFactory.setPassword("guest");
