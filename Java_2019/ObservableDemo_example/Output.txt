@@ -1,0 +1,3 @@
+price changed to new price =  9000
+JohnObserver is notified, Price changed to 9000
+PeterObserver is notified, Price changed to 9000

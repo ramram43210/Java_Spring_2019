@@ -1,0 +1,23 @@
+2 observers are listening
+price changed to new price =  9000
+Before Notify call hasChanged method
+Price value changed
+JohnObserver is notified, Price changed to 9000
+PeterObserver is notified, Price changed to 9000
+After Notify call hasChanged method
+Price value not changed
+------------------------------------------
+1 observer is listening
+price changed to new price =  20000
+Before Notify call hasChanged method
+Price value changed
+JohnObserver is notified, Price changed to 20000
+After Notify call hasChanged method
+Price value not changed
+------------------------------------------
+0 observers are listening
+price changed to new price =  30000
+Before Notify call hasChanged method
+Price value changed
+After Notify call hasChanged method
+Price value not changed
