@@ -14,8 +14,8 @@ public class EmployeeServiceImpl implements EmployeeService
 	@Autowired
 	private EmployeeRepository employeeRepository;
 	
-	public void createEmployee(Employee employee)
+	public Employee createEmployee(Employee employee)
 	{
-		employeeRepository.createEmployee(employee);
+		return employeeRepository.createEmployee(employee);
 	}
 }

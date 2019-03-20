@@ -20,7 +20,7 @@ public class EmployeeRepository
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
-	public void createEmployee(Employee employee)
+	public Employee createEmployee(Employee employee)
 	{
 		String sql = "INSERT INTO EMPLOYEE " + "(NAME, AGE,SALARY) VALUES (?, ?,?)";
 		KeyHolder holder = new GeneratedKeyHolder();
@@ -40,6 +40,7 @@ public class EmployeeRepository
 		}, holder);
 
 		int generatedEmployeeId = holder.getKey().intValue();
-		System.out.println("generatedEmployeeId = " + generatedEmployeeId);
+		employee.setId(generatedEmployeeId);
+		return employee;
 	}
 }

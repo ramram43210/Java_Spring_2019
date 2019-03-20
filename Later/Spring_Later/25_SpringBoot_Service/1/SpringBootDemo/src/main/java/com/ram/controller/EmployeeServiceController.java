@@ -20,8 +20,10 @@ public class EmployeeServiceController
 	@RequestMapping(value = "/employees", method = RequestMethod.POST)
 	public ResponseEntity<Object> createEmployee(@RequestBody Employee employee)
 	{
-		employeeService.createEmployee(employee);
-		return new ResponseEntity<>("Employee is created successfully", HttpStatus.CREATED);
+		employee = employeeService.createEmployee(employee);
+		return new ResponseEntity<>(
+				"Employee is created successfully with Id = " + employee.getId(),
+				HttpStatus.CREATED);
 	}
-	
+
 }
