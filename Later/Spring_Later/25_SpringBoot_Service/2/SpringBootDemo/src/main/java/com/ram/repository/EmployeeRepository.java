@@ -11,6 +11,7 @@ import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.ram.model.Employee;
 
@@ -43,5 +44,13 @@ public class EmployeeRepository
 		int generatedEmployeeId = holder.getKey().intValue();
 		employee.setId(generatedEmployeeId);
 		return employee;
+	}
+
+	@Transactional
+	public void updateEmployee(int id, Employee employee)
+	{
+		String sql = "update Employee set Name=?, AGE=?, SALARY=? where ID=?";
+		jdbcTemplate.update(sql, employee.getName(), employee.getAge(),
+				employee.getSalary(), id);
 	}
 }
