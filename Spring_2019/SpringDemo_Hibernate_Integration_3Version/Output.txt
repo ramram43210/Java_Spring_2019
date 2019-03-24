@@ -1,0 +1,15 @@
+Mar 17, 2019 5:44:22 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64bfbc86: startup date [Sun Mar 17 17:44:22 IST 2019]; root of context hierarchy
+Mar 17, 2019 5:44:22 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [applicationContext.xml]
+Mar 17, 2019 5:44:23 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4fb3ee4e: defining beans [sessionFactory,hibernateTemplate,employeeDAO,org.springframework.aop.config.internalAutoProxyCreator,dbOperation,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,txAdvice,transactionManager]; root of factory hierarchy
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Mar 17, 2019 5:44:24 PM org.springframework.orm.hibernate3.LocalSessionFactoryBean buildSessionFactory
+INFO: Building new Hibernate SessionFactory
+Hibernate: insert into Employee (age, firstName, lastName, salary) values (?, ?, ?, ?)
+Hibernate: insert into Employee (age, firstName, lastName, salary) values (?, ?, ?, ?)
+Hibernate: select employee0_.id as id0_0_, employee0_.age as age0_0_, employee0_.firstName as firstName0_0_, employee0_.lastName as lastName0_0_, employee0_.salary as salary0_0_ from Employee employee0_ where employee0_.id=?
+Employee [id=2, firstName=Dave, lastName=J, age=58, salary=60000]
