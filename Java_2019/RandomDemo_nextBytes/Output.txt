@@ -1,0 +1,12 @@
+------------- Before, nextBytes method is called ------------
+0
+0
+0
+0
+0
+------------- After, nextBytes method is called ------------
+-17
+-86
+-36
+19
+1
