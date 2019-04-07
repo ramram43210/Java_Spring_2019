@@ -1,0 +1,33 @@
+longValue =  -6543374909433455046
+longValue =  1377655215355081345
+longValue =  5122877006022962446
+longValue =  8711153157077873296
+longValue =  -8983829236099396993
+
+
+--------------------------
+
+floatValue = 0.41471863
+floatValue = 0.8795
+floatValue = 0.336545
+floatValue = 0.9656005
+floatValue = 0.94004697
+
+
+-------------------------
+
+doubleValue =  0.6272720288013284
+doubleValue =  0.10531113304820727
+doubleValue =  7.513065794850782E-5
+doubleValue =  0.3374804372560004
+doubleValue =  0.30673820045680167
+
+
+--------------------------
+
+
+booleanValue =  false
+booleanValue =  true
+booleanValue =  false
+booleanValue =  false
+booleanValue =  false
