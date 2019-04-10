@@ -1,0 +1,208 @@
+09:42:12.161 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@44c8afef
+09:42:12.255 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+09:42:12.612 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse\workspace\SpringDemo\target\classes\com\ram\service\ProductServiceImpl.class]
+09:42:13.531 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+09:42:13.535 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+09:42:13.542 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+09:42:13.545 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+09:42:13.556 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+09:42:13.808 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+09:42:13.815 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cache.config.internalCacheAdvisor'
+09:42:13.823 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cache.annotation.ProxyCachingConfiguration'
+09:42:14.017 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cacheOperationSource'
+09:42:14.066 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cacheInterceptor'
+09:42:14.155 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+09:42:14.355 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cacheManager'
+09:42:14.389 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'ehCacheCacheManager'
+09:42:14.399 [main] INFO org.springframework.cache.ehcache.EhCacheManagerFactoryBean - Initializing EhCache CacheManager
+09:42:14.409 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+09:42:14.555 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+09:42:14.570 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+09:42:14.577 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\Home\AppData\Local\Temp\
+09:42:14.664 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+09:42:14.670 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+09:42:14.705 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+09:42:15.340 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+09:42:15.340 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+09:42:15.340 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+09:42:15.381 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\Home\AppData\Local\Temp
+09:42:15.381 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\Home\AppData\Local\Temp\.ehcache-diskstore.lock
+09:42:15.383 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file products.index
+09:42:15.408 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\Home\AppData\Local\Temp\products.index
+09:42:15.408 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file products.index
+09:42:15.653 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+09:42:15.658 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+09:42:15.660 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+09:42:15.663 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+09:42:15.664 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+09:42:15.720 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+09:42:15.724 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+09:42:15.725 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+09:42:15.750 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+09:42:15.751 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+09:42:15.751 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+09:42:15.755 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+09:42:15.757 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+09:42:15.778 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: products
+09:42:15.779 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'products'.
+09:42:15.779 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'products'.
+<!----------Entering getByName()---------->
+09:42:30.320 [main] DEBUG net.sf.ehcache.store.disk.Segment - put added 0 on heap
+LED TV ->Product [name=LED TV, price=500.0]
+09:42:30.340 [products.data] DEBUG net.sf.ehcache.store.disk.Segment - fault removed 0 from heap
+09:42:30.340 [products.data] DEBUG net.sf.ehcache.store.disk.Segment - fault added 0 on disk
+LED TV ->Product [name=LED TV, price=500.0]
+LED TV ->Product [name=LED TV, price=500.0]
+<!----------Entering getByName()---------->
+Phone ->Product [name=Phone, price=600.0]
+<!----------Entering getByName()---------->
+Phone ->Product [name=Phone, price=600.0]
+<!----------Entering getByName()---------->
+Phone ->Product [name=Phone, price=600.0]
+<!----------Entering updateProduct --------->
+09:43:34.910 [main] DEBUG net.sf.ehcache.store.disk.Segment - put added 0 on heap
+09:43:34.941 [main] DEBUG net.sf.ehcache.store.disk.Segment - put updated, deleted 0 on heap
+09:43:34.941 [main] DEBUG net.sf.ehcache.store.disk.Segment - put updated, deleted 0 on disk
+09:43:34.943 [products.data] DEBUG net.sf.ehcache.store.disk.Segment - fault removed 0 from heap
+09:43:34.944 [products.data] DEBUG net.sf.ehcache.store.disk.Segment - fault added 0 on disk
+LED TV ->Product [name=LED TV, price=550.0]
+LED TV ->Product [name=LED TV, price=550.0]
+LED TV ->Product [name=LED TV, price=550.0]
+Refreshing all products
+09:44:00.337 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.337 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.337 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.337 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.337 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.337 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.337 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.337 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.340 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.340 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.340 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.340 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.340 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.340 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.340 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.340 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.341 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.342 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.342 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.343 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.343 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.343 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.343 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.344 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.344 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.344 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.344 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.345 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.345 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.345 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.345 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.345 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.345 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.345 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.345 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.346 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.347 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.347 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.347 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.347 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.347 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.347 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.347 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.348 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.348 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.348 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.348 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.348 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.348 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.348 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.348 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.348 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.348 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.349 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.350 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.350 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared heap usage
+09:44:00.351 [main] DEBUG net.sf.ehcache.store.disk.Segment - cleared disk usage
+<!----------Entering getByName()---------->
+09:44:14.605 [main] DEBUG net.sf.ehcache.store.disk.Segment - put added 0 on heap
+LED TV [after refresh]->Product [name=LED TV, price=550.0]
+09:44:14.613 [products.data] DEBUG net.sf.ehcache.store.disk.Segment - fault removed 0 from heap
+09:44:14.613 [products.data] DEBUG net.sf.ehcache.store.disk.Segment - fault added 0 on disk
+LED TV [after refresh]->Product [name=LED TV, price=550.0]
+LED TV [after refresh]->Product [name=LED TV, price=550.0]
+09:44:19.784 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@44c8afef, started on Tue Apr 09 09:42:12 IST 2019
+09:44:19.787 [main] INFO org.springframework.cache.ehcache.EhCacheManagerFactoryBean - Shutting down EhCache CacheManager
