@@ -1,0 +1,3 @@
+url = failover://tcp://localhost:61616
+ INFO | Successfully connected to tcp://localhost:61616
+Message 'Hi Peter, How are you?, Sent Successfully to the Queue
