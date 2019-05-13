@@ -1,0 +1,20 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.4.RELEASE)
+
+2019-05-13 09:18:09.846  INFO 4380 --- [           main] com.ram.SpringBootStandAloneApplication  : Starting SpringBootStandAloneApplication on Home-PC with PID 4380 (D:\eclipse\workspace\SpringBootDemo\target\classes started by Home in D:\eclipse\workspace\SpringBootDemo)
+2019-05-13 09:18:09.854  INFO 4380 --- [           main] com.ram.SpringBootStandAloneApplication  : No active profile set, falling back to default profiles: default
+2019-05-13 09:18:13.692  INFO 4380 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-13 09:18:13.806  INFO 4380 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-13 09:18:13.807  INFO 4380 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-13 09:18:14.189  INFO 4380 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-13 09:18:14.190  INFO 4380 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4197 ms
+2019-05-13 09:18:15.111  INFO 4380 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-13 09:18:15.694  INFO 4380 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-13 09:18:15.720  INFO 4380 --- [           main] com.ram.SpringBootStandAloneApplication  : Started SpringBootStandAloneApplication in 6.845 seconds (JVM running for 7.687)
+Hello world, Peter
