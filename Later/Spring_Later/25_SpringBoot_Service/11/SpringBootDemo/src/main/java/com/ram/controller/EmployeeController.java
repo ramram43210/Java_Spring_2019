@@ -11,9 +11,9 @@ import com.ram.model.Employee;
 public class EmployeeController
 {
 	@RequestMapping(value = "/saveEmployee", method = RequestMethod.POST)
-	public void saveEmployeeInformation(@RequestBody Employee employee)
+	public String saveEmployeeInformation(@RequestBody Employee employee)
 	{
 		// Write code to save in Database
-		System.out.println("Employee saved successfully -- "+employee);
+		return "Employee saved successfully -- "+employee;
 	}
 }
