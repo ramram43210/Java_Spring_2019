@@ -11,7 +11,7 @@ import com.ram.model.Employee;
 public class EmployeeController
 {
 	@RequestMapping(value = "/getEmployee", method = RequestMethod.GET)
-	public Employee getEmployeeInfo(Model model)
+	public Employee getEmployeeInfo()
 	{
 		Employee employee = new Employee();
 		employee.setId(1);
