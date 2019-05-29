@@ -42,24 +42,21 @@
               type="org.apache.catalina.UserDatabase"
               description="User database that can be updated and saved"
               factory="org.apache.catalina.users.MemoryUserDatabaseFactory"
-              pathname="conf/tomcat-users.xml" />
-              
-     
+              pathname="conf/tomcat-users.xml" />             
+                             
                            
-                           
-<Resource name="jdbc/TestDB" 
-      global="jdbc/TestDB" 
-      auth="Container" 
-      type="javax.sql.DataSource" 
-      driverClassName="com.mysql.jdbc.Driver" 
-      url="jdbc:mysql://localhost:3306/org_db" 
-      username="root" 
-      password="root"       
-      maxTotal="100" 
-      maxIdle="20" 
-      minIdle="5" 
-      maxWaitMillis="10000"/>                           
-              
+	<Resource name="jdbc/TestDB" 
+	      global="jdbc/TestDB" 
+	      auth="Container" 
+	      type="javax.sql.DataSource" 
+	      driverClassName="com.mysql.jdbc.Driver" 
+	      url="jdbc:mysql://localhost:3306/org_db" 
+	      username="root" 
+	      password="root"       
+	      maxTotal="100" 
+	      maxIdle="20" 
+	      minIdle="5" 
+	      maxWaitMillis="10000"/>                                        
               
   </GlobalNamingResources>
 
