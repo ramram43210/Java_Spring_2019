@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<configuration>
+	
+	<appender name="STDOUT"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>[%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p]
+				%m%n</pattern>
+		</encoder>
+
+	</appender>
+
+	<appender name="FILE"
+		class="ch.qos.logback.core.FileAppender">
+		  <File>D:/log/helloworld.log</File>
+		<encoder>
+			<pattern>[%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p]
+				%m%n</pattern>
+		</encoder>
+	</appender>
+	
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</root>
+</configuration>
