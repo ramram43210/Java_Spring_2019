@@ -6,6 +6,8 @@ Spring boot
 4.WAR depoy
 5.web app - telesco
 6. spring data rest
+7 springboot pagination - https://www.javainuse.com/spring/SpringBootUsingPagination
+drools
 
 Ref
 
