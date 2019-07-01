@@ -15,7 +15,6 @@ import org.springframework.jms.support.converter.MessageType;
 
 @Configuration
 @ComponentScan(basePackages = "com.ram")
-@EnableJms
 public class JMSConfiguration
 {
 	@Bean
