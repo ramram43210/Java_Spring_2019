@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: SpringBootHelloWorldExample Maven Webapp
-Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Ramesh
-Implementation-Vendor-Id: org.arpit.java2blog
-Build-Jdk: 1.8.0_73
-Implementation-URL: http://maven.apache.org
-Created-By: Maven Integration for Eclipse
-

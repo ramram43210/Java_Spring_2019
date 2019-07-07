@@ -1,5 +1,0 @@
-server:
-  servlet:
-    context-path: /myContext
-    
-    
