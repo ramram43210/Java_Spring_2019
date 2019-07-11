@@ -1,13 +1,12 @@
 Spring boot
 
-1.Embeded tomcat server
-2.How spring mvc works
 3.REST standad - employee api
-4.WAR depoy
 5.web app - telesco
 6. spring data rest
 7 springboot pagination - https://www.javainuse.com/spring/SpringBootUsingPagination
 drools
+DI  - like Telusko
+Autowire - like Telusko
 
 Ref
 
