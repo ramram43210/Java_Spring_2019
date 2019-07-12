@@ -1,0 +1,9 @@
+spring:
+logging:
+  file: D:/log/helloworld.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    com.example.*: DEBUG
+    

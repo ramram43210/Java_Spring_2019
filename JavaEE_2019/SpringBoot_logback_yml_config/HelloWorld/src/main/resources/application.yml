@@ -1,0 +1,4 @@
+spring:
+logging:
+  level:
+    com.example.*: DEBUG
