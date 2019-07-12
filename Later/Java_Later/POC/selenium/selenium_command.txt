@@ -1,0 +1,5 @@
+java -jar selenium-server-standalone-3.8.1.jar -role hub
+java -jar -Dwebdriver.chrome.driver=D:/Download/chromedriver.exe selenium-server-standalone-3.8.1.jar -role node -hub  http://192.168.140.79:4444/grid/register/ -port 5555
+
+java -jar selenium-server-standalone-3.8.1.jar -role hub -host 192.168.140.33
+java -jar -Dwebdriver.chrome.driver=/root/ramesh/selenium/webdriver/chromedriver -Dwebdriver.chrome.bin=/usr/bin/google-chrome selenium-server-standalone-3.8.1.jar -role node -hub  http://192.168.140.33:4444/grid/register/ -port 5555 -host 192.168.140.33
