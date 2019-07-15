@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Convert a string into a function.</h2>
+
+<p id="demo"></p>
+
+<script>
+var text = '{"name":"Peter", "age":"function() {return 50;}", "city":"New York"}';
+var obj = JSON.parse(text);
+obj.age = eval("(" + obj.age + ")");
+document.getElementById("demo").innerHTML = obj.name + ", " + obj.age(); 
+</script>
+
+</body>
+</html>
