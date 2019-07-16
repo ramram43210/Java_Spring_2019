@@ -9,6 +9,7 @@ DI  - like Telusko
 Autowire - like Telusko
 mvc - send object
 JPA - complex query - Telusko
+Content negotion accept and produce - Telusco - 3 hr
 
 Ref
 
