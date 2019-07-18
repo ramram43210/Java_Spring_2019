@@ -12,6 +12,13 @@ JPA - complex query - Telusko
 Content negotion accept and produce - Telusco - 3 hr
 Spring data rest - Telusco
 
+spring secity - tech primers
+
+
+Misc
+
+microservice
+
 Ref
 
 https://docs.spring.io/spring-boot/docs/current/reference/html/index.html
