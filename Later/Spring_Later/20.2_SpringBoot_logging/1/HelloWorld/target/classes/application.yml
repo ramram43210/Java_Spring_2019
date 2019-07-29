@@ -1,4 +1,0 @@
-spring:
-logging:
-  level:
-    com.example.*: INFO
