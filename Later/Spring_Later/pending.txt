@@ -12,7 +12,6 @@ JPA - complex query - Telusko
 Content negotion accept and produce - Telusco - 3 hr
 Spring data rest - Telusco
 the techcave - yt
-
 spring secity - tech primers
 
 
