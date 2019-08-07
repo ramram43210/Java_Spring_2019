@@ -1,0 +1,6 @@
+{
+    "id": 1,
+    "name": "Peter",
+    "author": "John",
+    "price": 20.90
+}
