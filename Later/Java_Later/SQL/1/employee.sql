@@ -25,16 +25,16 @@ CREATE TABLE `employee` (
   `NAME` varchar(100) NOT NULL,
   `AGE` int(10) NOT NULL,
   `SALARY` int(10) DEFAULT NULL,
-  `city` varchar(10) DEFAULT NULL,
-  `country` varchar(10) DEFAULT NULL,
+  `city` varchar(100) DEFAULT NULL,
+  `country` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 /*Data for the table `employee` */
 
 LOCK TABLES `employee` WRITE;
 
-insert  into `employee`(`ID`,`NAME`,`AGE`,`SALARY`,`city`,`country`) values (1,'Peter',32,20000,'Bangalore','India'),(2,'John',39,30000,'Chennai','India'),(3,'Dave',40,50000,'Kerala','USA'),(4,'Arun',56,30000,'Delhi','USA'),(5,'Raj',45,1000,'Bangalore','USA');
+insert  into `employee`(`ID`,`NAME`,`AGE`,`SALARY`,`city`,`country`) values (1,'Peter',32,20000,'Bangalore','India'),(2,'John',39,30000,'Chennai','India'),(3,'Dave',40,50000,'Austin','USA'),(4,'Arun',56,30000,'Chicago','USA'),(5,'Raj',45,1000,'Las Vegas','USA'),(6,'Julia',46,80000,'Atlanta','USA');
 
 UNLOCK TABLES;
 
