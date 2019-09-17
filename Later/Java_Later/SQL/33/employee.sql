@@ -16,6 +16,31 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/`org_db` /*!40100 DEFAULT CHARACTER SET 
 
 USE `org_db`;
 
+/*Table structure for table `address` */
+
+DROP TABLE IF EXISTS `address`;
+
+CREATE TABLE `address` (
+  `ADDRESS_ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `EMPLOYEE_ID` int(10) unsigned NOT NULL,
+  `STREET_NAME` varchar(100) NOT NULL,
+  `CITY` varchar(100) NOT NULL,
+  `COUNTRY` varchar(100) NOT NULL,
+  `ZIPCODE` varchar(100) NOT NULL,
+  `CREATED_DATE` date DEFAULT NULL,
+  PRIMARY KEY (`ADDRESS_ID`),
+  KEY `EMPLOYEE_ADDRESS_LINK` (`EMPLOYEE_ID`),
+  CONSTRAINT `EMPLOYEE_ADDRESS_LINK` FOREIGN KEY (`EMPLOYEE_ID`) REFERENCES `employee` (`EMPLOYEE_ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+/*Data for the table `address` */
+
+LOCK TABLES `address` WRITE;
+
+insert  into `address`(`ADDRESS_ID`,`EMPLOYEE_ID`,`STREET_NAME`,`CITY`,`COUNTRY`,`ZIPCODE`,`CREATED_DATE`) values (1,1,'18,Dark Street','Chennai','India','680009','2019-09-10'),(2,1,'90,West Street','Bangalore','India','655556','2019-09-18'),(3,2,'898,East Street','Bangalore','India','565565','2019-09-14'),(4,2,'676,North Street','Chennai','India','767676','2019-09-18'),(5,2,'434,Good Street','Kerala','India','656565','2019-09-16'),(6,2,'888,JP Street','Tokyo','Japan','898989','2019-09-16');
+
+UNLOCK TABLES;
+
 /*Table structure for table `employee` */
 
 DROP TABLE IF EXISTS `employee`;
@@ -25,16 +50,17 @@ CREATE TABLE `employee` (
   `EMPLOYEE_NAME` varchar(100) NOT NULL,
   `AGE` int(10) NOT NULL,
   `SALARY` int(10) DEFAULT NULL,
-  `city` varchar(100) DEFAULT NULL,
+  `CITY` varchar(100) DEFAULT NULL,
+  `COUNTRY` varchar(100) DEFAULT NULL,
   `CREATED_DATE` date DEFAULT NULL,
   PRIMARY KEY (`EMPLOYEE_ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 /*Data for the table `employee` */
 
 LOCK TABLES `employee` WRITE;
 
-insert  into `employee`(`EMPLOYEE_ID`,`EMPLOYEE_NAME`,`AGE`,`SALARY`,`city`,`CREATED_DATE`) values (1,'Peter',32,7000,'Chennai','2019-09-03'),(2,'Dave',34,8000,'Bangalore','2019-09-04'),(3,'John',45,10000,'Chennai','2019-09-24'),(4,'Ajay',32,7000,'Kerala','2019-09-18'),(5,'Vijay',45,8888,'Chennai','2019-09-30');
+insert  into `employee`(`EMPLOYEE_ID`,`EMPLOYEE_NAME`,`AGE`,`SALARY`,`CITY`,`COUNTRY`,`CREATED_DATE`) values (1,'Peter',32,7000,'Chennai','India','2019-09-03'),(2,'Dave',34,8000,'Bangalore','India','2019-09-04'),(3,'John',45,10000,'Chennai','India','2019-09-24'),(4,'Ajay',32,7000,'Kerala','India','2019-09-18'),(5,'Vijay',45,8888,'Tokyo','Japan','2019-09-30'),(6,'Arun',56,7777,'Kyoto ','Japan','2019-09-16');
 
 UNLOCK TABLES;
 
