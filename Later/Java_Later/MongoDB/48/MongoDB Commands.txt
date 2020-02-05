@@ -1,0 +1,3 @@
+db.Employee.insert({"EmployeeName" : "Smith","age":NumberInt(30)})
+
+db.Employee.insert({_id:NumberInt(10), "EmployeeName" : "Smith","age":NumberInt(30)})
