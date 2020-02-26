@@ -1,0 +1,9 @@
+curl -X POST "http://localhost:8080/employees" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"name\": \"Ram\", \"age\": 30, \"salary\": 80000}"
+
+curl -X PUT "http://localhost:8080/employees/30" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"name\": \"Arun\", \"age\": 50, \"salary\": 50000}"
+
+curl -X GET "http://localhost:8080/employees/30" -H "accept: */*"
+
+curl -X GET "http://localhost:8080/employees" -H "accept: */*"
+
+curl -X DELETE "http://localhost:8080/employees/30" -H "accept: */*"
