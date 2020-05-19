@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<p>How to loop through all properties in a JSON object?</p>
+
+	<p id="key_value"></p>
+	<p id="value"></p>
+
+	<script>
+		var myObj, key;
+		myObj = {
+			"name" : "John",
+			"age" : 30,
+			"salary" : 9000
+		};
+		for (key in myObj) {
+			document.getElementById("key_value").innerHTML += key + " - "
+					+ myObj[key] + "<br>";
+		}
+	</script>
+
+</body>
+</html>
