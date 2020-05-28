@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<Employee type="permanent">
-	<Name>Peter</Name>
-	<Age>34</Age>
-	<Salary>34</Salary>
-	<City>India</City>
-</Employee>
-
