@@ -1,0 +1,42 @@
+/*
+SQLyog Professional v13.1.1 (64 bit)
+MySQL - 8.0.21 : Database - org_db
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`org_db` /*!40100 DEFAULT CHARACTER SET utf8 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+USE `org_db`;
+
+/*Table structure for table `users` */
+
+DROP TABLE IF EXISTS `users`;
+
+CREATE TABLE `users` (
+  `USERID` int unsigned NOT NULL AUTO_INCREMENT,
+  `USERNAME` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `PASSWORD` varchar(100) NOT NULL,
+  `AGE` int DEFAULT NULL,
+  `CREATED_DATE` date DEFAULT NULL,
+  PRIMARY KEY (`USERID`)
+) ENGINE=InnoDB AUTO_INCREMENT=102 DEFAULT CHARSET=utf8;
+
+/*Data for the table `users` */
+
+insert  into `users`(`USERID`,`USERNAME`,`PASSWORD`,`AGE`,`CREATED_DATE`) values 
+(1,'Ram','pass123',20,'2020-08-19'),
+(2,'Dave','password1!',30,'2020-08-13'),
+(3,'Peter','fan78@',50,'2020-08-03');
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
