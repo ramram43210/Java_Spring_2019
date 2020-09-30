@@ -1,0 +1,36 @@
+db.books.save(
+ [
+	  { 
+	    "title" : "Java Overview", 
+	    "description" : "About Java basics", 
+	    "by" : "Ram N", 
+	    "url" : "http://www.java.com", 
+	    "tags" : [
+		"Java", 
+		"Advanced Java", 
+		"Basic Java"
+	    ], 
+	    "likes" : NumberInt(10)
+	  }
+	,
+	{ 
+	    "title" : "MongoDB Overview", 
+	    "description" : "About MongoDB basics", 
+	    "by" : "Ram N", 
+	    "url" : "http://www.MongoDB.com", 
+	    "tags" : [
+		"MongoDB", 
+		"Basic MongoDB"
+	    ], 
+	    "likes" : NumberInt(10), 
+	    "comments" : [
+		{
+		    "user" : "Peter", 
+		    "message" : "Really good link to learn MongoDB", 
+		    "dateCreated" : ISODate("2019-12-09T21:05:00.000+0000"), 
+		    "like" : NumberInt(10)
+		} ]  
+	}
+ ]
+)
+

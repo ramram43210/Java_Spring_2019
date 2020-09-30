@@ -1,0 +1,14 @@
+db.books.save(
+	{ 
+	    "title" : "Java Overview", 
+	    "description" : "About Java basics", 
+	    "by" : "Ram N", 
+	    "url" : "http://www.java.com", 
+	    "tags" : [
+		"Java", 
+		"Advanced Java", 
+		"Basic Java"
+	    ], 
+	    "likes" :  NumberInt(10)
+	}
+)
