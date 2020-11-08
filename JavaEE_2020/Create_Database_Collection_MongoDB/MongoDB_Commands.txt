@@ -1,0 +1,3 @@
+use EmployeeDB;
+
+db.employee.insert({ "EmployeeId":1, "EmployeeName": "Peter"});
