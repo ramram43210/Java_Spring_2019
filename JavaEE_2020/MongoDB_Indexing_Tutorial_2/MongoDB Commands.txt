@@ -1,0 +1,5 @@
+db.employee.getIndexes()
+db.employee.createIndex({Employeeid:1})
+db.employee.dropIndex({Employeeid:1})
+db.employee.createIndex({Employeeid:1, EmployeeName:1})
+db.employee.dropIndexes()

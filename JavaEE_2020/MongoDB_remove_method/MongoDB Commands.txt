@@ -1,0 +1,2 @@
+db.employee.remove({})
+db.employee.remove({Employeeid:12})

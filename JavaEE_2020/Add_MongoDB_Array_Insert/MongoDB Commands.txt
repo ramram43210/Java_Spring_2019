@@ -1,0 +1,22 @@
+var myEmployee=
+	[	
+		{
+			"Employeeid" : 1,
+			"EmployeeName" : "Smith"
+		},
+		{
+			"Employeeid"   : 2,
+			"EmployeeName" : "Mohan"
+		},
+		{
+			"Employeeid"   : 3,
+			"EmployeeName" : "Joe"
+		},
+	];
+db.employee.insert(myEmployee);
+
+--------------------------------------
+
+db.employee.find().forEach(printjson)
+
+-------------------------------------

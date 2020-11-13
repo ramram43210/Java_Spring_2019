@@ -1,0 +1,5 @@
+var myEmployee = db.employee.find({ });
+while(myEmployee.hasNext())
+{
+        print(tojson(myEmployee.next()));
+}

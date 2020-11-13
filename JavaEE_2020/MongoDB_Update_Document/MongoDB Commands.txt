@@ -1,0 +1,9 @@
+db.employee.update
+( 
+{
+    "Employeeid" : 1
+}, 
+{
+    $set: { "EmployeeName" : "John"}
+}
+);

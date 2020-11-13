@@ -1,0 +1,5 @@
+db.employee.find({})
+
+db.employee.find({EmployeeName : "Smith"})
+
+db.employee.find({Employeeid : {$gt:2}}).forEach(printjson);
