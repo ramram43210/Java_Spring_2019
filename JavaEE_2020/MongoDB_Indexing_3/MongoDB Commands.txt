@@ -1,0 +1,4 @@
+db.employee.getIndexes()
+db.employee.ensureIndex({Employeeid:1})
+db.employee.ensureIndex({Employeeid:1, EmployeeName:-1})
+db.employee.dropIndexes()
