@@ -1,0 +1,3 @@
+db.employee.find({EmployeeName:{$regex: "Gu"}}).forEach(printjson)
+
+db.employee.find({EmployeeName:{$regex: "Gu",$options:'i'}}).forEach(printjson) 

@@ -1,0 +1,1 @@
+db.employee.find({EmployeeName: /Gu/}).forEach(printjson)
