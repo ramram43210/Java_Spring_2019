@@ -1,0 +1,3 @@
+db.studentInfo.update({"name.firstName":"Arun"},{$set:{"age" : 16}})
+db.studentInfo.update({"name.firstName":"Raj"},{$set:{"age" : 30}},{upsert:true})
+db.studentInfo.update({"name.firstName":"Arun"},{$set:{"subjects.1" : "Science"}})

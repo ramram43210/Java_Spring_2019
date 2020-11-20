@@ -1,0 +1,4 @@
+db.studentInfo.find({"subjects":{$in:["Chemistry"]}})
+db.studentInfo.find({"subjects":{$nin:["Chemistry"]}})
+db.studentInfo.find({"subjects":{$exists:true, $in:["Chemistry"]}})
+db.studentInfo.find({"subjects":{$exists:false, $nin:["Chemistry"]}})
