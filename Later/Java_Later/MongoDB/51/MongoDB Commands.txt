@@ -1,3 +1,0 @@
-db.Employee.find({EmployeeName : "Smith"})
-
-db.Employee.find({Employeeid : {$gt:2}}).forEach(printjson);
