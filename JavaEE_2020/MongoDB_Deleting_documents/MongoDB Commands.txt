@@ -1,0 +1,4 @@
+db.studentInfo.remove({"name.firstName":"Arun"},1)
+db.studentInfo.remove({"name.firstName":"Arun"})
+db.studentInfo.remove({"subjects":"Journalist"})
+db.studentInfo.remove({})

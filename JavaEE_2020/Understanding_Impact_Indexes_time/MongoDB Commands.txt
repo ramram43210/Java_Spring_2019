@@ -1,0 +1,5 @@
+db.employee.find({ "EmployeeName" : "Joe"}).explain(1)
+
+db.employee.createIndex({ EmployeeName : 1})
+
+db.employee.dropIndexes()

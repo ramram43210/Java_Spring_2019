@@ -1,0 +1,3 @@
+db.studentInfo.distinct("subjects")
+db.studentInfo.count()
+db.studentInfo.find({"subjects":"Maths"}).count()
