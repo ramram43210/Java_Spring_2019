@@ -1,0 +1,12 @@
+db.categories.insertMany( [
+   { _id: "MongoDB", parent: "Databases" },
+   { _id: "dbm", parent: "Databases" },
+   { _id: "Databases", parent: "Programming" },
+   { _id: "Languages", parent: "Programming" },
+   { _id: "Programming", parent: "Books" },
+   { _id: "Books", parent: null }
+] )
+
+db.categories.findOne( { _id: "MongoDB" } ).parent
+db.categories.createIndex( { parent: 1 } )
+db.categories.find( { parent: "Databases" } )
