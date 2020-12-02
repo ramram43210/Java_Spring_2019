@@ -1,2 +1,5 @@
 db.getUsers()
-db.createUser({	user: "peter",  pwd: "password",  roles:[{role: "root" , db:"admin"}]})
+db.createUser({	user: "peter",  pwd: "password",  roles:[{role: "userAdminAnyDatabase" , db:"admin"}]})
+db.grantRolesToUser("peter", [ { role: "readWriteAnyDatabase", db: "admin" } ])
+db.auth("peter","password")
+db.dropAllUsers()
