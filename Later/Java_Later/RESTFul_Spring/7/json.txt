@@ -1,0 +1,5 @@
+{
+    "name":"Peter",
+    "age":25,
+    "salary":30000
+}
