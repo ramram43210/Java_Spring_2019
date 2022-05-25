@@ -10,7 +10,7 @@
 	<name>SpringDemo</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<springframework.version>5.1.3.RELEASE</springframework.version>
+		<springframework.version>5.2.22.RELEASE</springframework.version>
 	</properties>
 
 	<dependencies>
